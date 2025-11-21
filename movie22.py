@@ -2,7 +2,7 @@ import sys
 
 # sys.argv[0] is the program name, so actual inputs start from index 1
 if len(sys.argv) != 5:
-    print("Usage: python movie_details.py <movie_name> <duration> <language> <ticket_price>")
+    print("Usage: python movie_details.py <movie_name=kantara> <duration=3> <language=kannada> <ticket_price=300>")
     sys.exit()
 
 movie_name = sys.argv[1]
