@@ -2,10 +2,10 @@ import sys
 
 # sys.argv[0] is the program name, so actual inputs start from index 1
 if len(sys.argv) != 5:
-    movie name = sys.agrv[1]
-    durration = sys.agrv[1]
-    ticket price = sys.agrv[1]
-    language= sys.agrv[1]
+    Movie Name = sys.agrv[1]
+    Duration = sys.agrv[1]
+    Ticket Price = sys.agrv[1]
+    Language= sys.agrv[1]
     print ("user input")
     else
     print("No given input,using ddefault values")
