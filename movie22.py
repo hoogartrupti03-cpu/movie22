@@ -9,10 +9,10 @@ if len(sys.argv) != 5:
     print ("user input")
     else
     print("No given input,using ddefault values")
-    movie_name="kantar"
+    movie name="kantar"
     duration="3"
     language="kannada"
-    ticket_price="300"
+    ticket price="300"
 
 print("\n--- Movie Details ---")
 print(f"Movie Name   : {movie_name}")
